@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class MergeSortInPlace {
     public static void main(String[] args) {
         int[] arr = {8,3,4,12,5,6};
-        mergerSort(arr, 0, arr.length-1);
+        mergerSort(arr, 0, arr.length);
         System.out.println(Arrays.toString(arr));
     }
 
